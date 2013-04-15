@@ -1,6 +1,6 @@
 <?php
-//  ejemplo de acceso a bases de datos
-//temta conectarse con la bse de 
+//  ejemplo de acceso a bases de 
+//intenta conectarse con la bse de 
 $mysqli= new mysqli("localhost","java","901021","musica");
 if($mysqli=== false){
 	die("ERROR: No s&eacute; establecio la conexi&oacute;n.".mysqli_connect_error());
